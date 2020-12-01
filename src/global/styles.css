@@ -1,1 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#nprogress .bar {
+  height: 6px;
+  background: #fffaa4;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #fffaa4, 0 0 5px #fffaa4;
+}
