@@ -9,7 +9,7 @@ const cache = setupCache({
 });
 const api = Axios.create({
   adapter: cache.adapter,
-  baseURL: process.env.NEXT_PUBLIC_OMDB_REST_API,
+  baseURL: process.env.OMDB_REST_API,
 });
 
 export const searchMovies = ({ s, page }) => {
