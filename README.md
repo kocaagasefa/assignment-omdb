@@ -1,30 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# This is a "NextJS" project
 
-## Getting Started
+## Before starting:
 
-First, run the development server:
+    yarn install
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Start in development mode:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    yarn dev
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Start in production mode:
 
-## Learn More
+- Build first with `yarn build`
+- Then start with `yarn start`
+- Both dev and prod mode runs on port `3000`
 
-To learn more about Next.js, take a look at the following resources:
+## Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Api responses are cached by `axios cache adaptor`, on server side.
+- Prefered to fetch data from external source on server; in this way client access to api key is restricted.
