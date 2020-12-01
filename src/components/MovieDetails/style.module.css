@@ -1,0 +1,10 @@
+.poster {
+  width: 100%;
+}
+.movieDataContainer {
+  font-size: 1.2em;
+}
+.itemKey {
+  min-width: 120px;
+  display: inline-block;
+}

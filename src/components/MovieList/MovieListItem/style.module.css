@@ -1,0 +1,18 @@
+.movieListItemContainer {
+  position: relative;
+  margin: 16px auto;
+  transition: transform 0.3s;
+}
+.link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.moviePoster {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.movieListItemContainer:hover {
+  transform: scale(1.05);
+}

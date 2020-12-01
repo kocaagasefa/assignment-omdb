@@ -1,0 +1,11 @@
+.container {
+  background: #c9d6ff;
+  background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff);
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  background-image: radial-gradient(
+    circle 972.6px at 10% 20%,
+    rgba(243, 0, 75, 1) 0%,
+    rgba(255, 93, 75, 1) 90%
+  );
+  min-height: 100vh;
+}

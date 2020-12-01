@@ -1,0 +1,7 @@
+.pageLink,
+.pageLink a {
+  color: #212529;
+}
+.activePageItem .pageLink {
+  background-color: #212529 !important;
+}
